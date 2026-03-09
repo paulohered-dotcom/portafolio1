@@ -16,7 +16,6 @@ body {
     box-sizing: border-box;
 }
 
-/* Top Title */
 .top-title {
     background-color: #9c9c9c;
     width: 50%;
@@ -32,7 +31,6 @@ body {
     color: #8b0000;
 }
 
-/* Navigation */
 .nav-bar {
     background-color: #9c9c9c;
     border-radius: 80px;
@@ -70,7 +68,17 @@ body {
 
 .icon {
     font-size: 90px;
+    text-decoration: none;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
 }
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
 
 /* Footer */
 .footer {
