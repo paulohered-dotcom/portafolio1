@@ -36,6 +36,11 @@ body {
   font-weight: 700;
 }
 
+.title-link{
+    text-decoration: none;
+    color: inherit;
+}
+
 /* Text content block */
 .text-block {
   background: #c8c8c8;
